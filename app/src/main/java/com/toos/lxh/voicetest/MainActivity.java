@@ -27,11 +27,7 @@ public class MainActivity extends AppCompatActivity implements EventListener {
     protected TextView txtResult;
     protected Button btn;
     protected Button stopBtn;
-    private static String DESC_TEXT = "精简版识别，带有SDK唤醒运行的最少代码，仅仅展示如何调用，\n" +
-            "也可以用来反馈测试SDK输入参数及输出回调。\n" +
-            "本示例需要自行根据文档填写参数，可以使用之前识别示例中的日志中的参数。\n" +
-            "需要完整版请参见之前的识别示例。\n" +
-            "需要测试离线命令词识别功能可以将本类中的enableOffline改成true，首次测试离线命令词请联网使用。之后请说出“打电话给张三”";
+    private static String DESC_TEXT = "测试";
 
     private EventManager asr;
 
