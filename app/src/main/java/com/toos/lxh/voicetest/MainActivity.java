@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements EventListener {
     protected TextView txtResult;
     protected Button btn;
     protected Button stopBtn;
-    private static String DESC_TEXT = "测试";
+    private static String DESC_TEXT = "测试1";
 
     private EventManager asr;
 
