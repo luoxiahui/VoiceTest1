@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements EventListener {
         json = new JSONObject(params).toString(); // 这里可以替换成你需要测试的json
         asr.send(event, json, null, 0, 0);
         printLog("输入参数：" + json);
+        //zhe ge ce shi de dai ma
     }
 
     private void stop() {
